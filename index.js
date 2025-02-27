@@ -21,3 +21,6 @@ app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
 
+app.get('/durgesh', (req, res) => {
+  res.send('This is durgesh sharma empior');
+});
